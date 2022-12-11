@@ -14,3 +14,8 @@ for(i = 0; i < 5; i ++) {
 let container = document.getElementById('container-principal');
 
 container.appendChild(lista);
+
+
+console.log(
+  [1, 2, 3, 4].reduce((a, b) => a + b, 0)
+)
